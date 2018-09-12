@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockcity:
+    image: ${DOCKER_REGISTRY}dockcity
+    build:
+      context: .
+      dockerfile: dockcity/Dockerfile
