@@ -24,7 +24,7 @@ namespace dockcity
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Docker deployment test!");
+                await context.Response.WriteAsync("Docker deployment test1!");
             });
         }
     }
