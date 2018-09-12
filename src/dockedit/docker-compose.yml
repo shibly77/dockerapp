@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockedit:
+    image: ${DOCKER_REGISTRY}dockedit
+    build:
+      context: .
+      dockerfile: dockedit/Dockerfile
